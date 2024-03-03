@@ -9,6 +9,9 @@ The dataset includes scans from nine SCA2 patients and sixteen age-matched healt
 * DTI Analysis and Feature Extraction: The code focuses on DTI analysis, potentially calculating and analyzing diffusion properties like fractional anisotropy (FA). FA reflects white matter integrity and may show differences between SCA2 patients and controls.
 * Simple Classification Exploration: The code explores the possibility of building a basic classifier to differentiate between SCA2 and control subjects based on extracted DTI features (e.g., FA values). This initial exploration lays the groundwork for refining the machine learning models in the future.
 
+### Trained Random Forest Classifier
+The code includes a trained Random Forest classifier, which achieves an accuracy of 80% in differentiating between SCA2 patients and control subjects. However, there is potential for further improvement using more advanced techniques such as deep learning. Integrating deep learning models into the analysis pipeline may lead to higher accuracy and better classification performance.
+
 ### Future Improvements
 For more accurate SCA2 classification using DTI data, we can explore several promising avenues:
 
